@@ -1,0 +1,30 @@
+#app2 {
+  border: 1px solid red;
+  padding: 20px;
+}
+
+#app2 .tab-bar {
+  display: flex;
+}
+
+#app2 .tab-bar li {
+  padding: 20px;
+  border: 1px solid grey;
+}
+
+#app2 .tab-bar li.active {
+  background: pink;
+}
+
+#app2 .tab-content {
+  border: 1px solid grey;
+  padding: 10px;
+}
+
+#app2 .tab-content li {
+  display: none;
+}
+
+#app2 .tab-content li.active {
+  display: block;
+}

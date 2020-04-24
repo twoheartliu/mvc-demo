@@ -1,0 +1,10 @@
+#app1 {
+  padding: 20px;
+  font-size: 16px;
+}
+
+#app1 .actions button {
+  border: 1px solid grey;
+  padding: 10px;
+  border-radius: 3px;
+}
